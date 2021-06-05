@@ -311,7 +311,7 @@ export default {
 		
 	},
 	async getShopInfo(){
-		const res =await this.$requestGet('shop/getShopAndAreaInfo',{id:14});
+		const res =await this.$requestGet('shop/getShopAndAreaInfo',{id:1});
 		if (res.code === 100) {//请求成功
 			//console.log(JSON.stringify(res.data.result));//JSON.parse(res.data.result)[0].productShopId
 			let shopObj=JSON.parse(res.data.result);

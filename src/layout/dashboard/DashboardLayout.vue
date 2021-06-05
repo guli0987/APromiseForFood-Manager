@@ -4,7 +4,7 @@
       <template slot="links">
         <sidebar-link to="/dashboard" name="销售报表" icon="ti-panel"/>
 		<sidebar-link to="/shop-data" name="店铺管理" icon="ti-view-list-alt"/>
-		<sidebar-link to="/table-product" name="商品清单" icon="ti-bag"/>
+		<sidebar-link to="/shop-goods" name="商品清单" icon="ti-bag"/>
 		<sidebar-link to="/table-list" name="订单信息" icon="ti-shopping-cart"/>
 		<sidebar-link to="/stats" name="用户资料" icon="ti-user"/>
         <sidebar-link to="/typography" name="文字版式" icon="ti-text"/>

@@ -1,3 +1,12 @@
+【result】:
+{
+	"code":100,
+	"msg":"处理成功",
+	"data":{
+		"result":
+		"[{\"productShopId\":1,\"productShowDesc\":\"好吃劲道\",\"productShowExtra\":\"还好\",\"productShowId\":1,\"productShowPrice\":10.0,\"productShowTitle\":\"牛肉面\"},{\"productShopId\":1,\"productShowDesc\":\"乌拉乌拉\",\"productShowExtra\":\"hahahahah\",\"productShowId\":3,\"productShowImg\":\"无图无真相\",\"productShowPrice\":67.9,\"productShowTitle\":\"鹅鹅鹅\"}]"}}
+
+
 {
   "code": 100,
   "msg": "处理成功",
@@ -6,3 +15,16 @@
   }
 }
 [{"url":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-mix-mall-admin/e18fa44d-b256-48d7-9eb8-047e0e4e5483.png"},{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show2.jpg"},{"url":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-mix-mall-admin/e18fa44d-b256-48d7-9eb8-047e0e4e5483.png"},{"url":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-mix-mall-admin/e18fa44d-b256-48d7-9eb8-047e0e4e5483.png"},{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show5.jpg"},{"url":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-mix-mall-admin/e18fa44d-b256-48d7-9eb8-047e0e4e5483.png"},{"url":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-mix-mall-admin/e18fa44d-b256-48d7-9eb8-047e0e4e5483.png"},{"url":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-mix-mall-admin/e18fa44d-b256-48d7-9eb8-047e0e4e5483.png"},{"url":"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-mix-mall-admin/e18fa44d-b256-48d7-9eb8-047e0e4e5483.png"}]
+
+insert into product_info values(0,"红烧牛肉面",CURRENT_TIMESTAMP(),0,"banner图","这是一个好的产品",67.7,"1231323","缩略图","食物",1,1,1,1,1,1,"面食",CURRENT_TIMESTAMP(),0,100,"备注","店铺名","面",1,1);
+
+[
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show1.jpg"},
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show2.jpg"},
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show3.jpg"},
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show4.jpeg"},
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show5.jpeg"},
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show6.jpeg"},
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show7.jpeg"},
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show8.jpeg"},
+	{"url":"http://public-1301701929.cos.ap-shanghai.myqcloud.com/shop/shop1show9.jpeg"}]

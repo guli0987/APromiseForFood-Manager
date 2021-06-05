@@ -11,6 +11,7 @@ import Maps from "@/pages/Maps.vue";
 import Typography from "@/pages/Typography.vue";
 import TableList from "@/pages/TableList.vue";
 import ShopInfo from "@/pages/ShopInfo.vue";
+import ShopGoods from "@/pages/ShopGoods.vue"
 
 const routes = [
   {
@@ -20,7 +21,7 @@ const routes = [
     children: [
       {
         path: "dashboard",
-        name: "仪表盘",
+        name: "销售报表（月）",
         component: Dashboard
       },
       {
@@ -57,6 +58,11 @@ const routes = [
 			  path: "shop-data",
 			  name: "店铺管理",
 			  component: ShopInfo
+			},
+			{
+			  path: "shop-goods",
+			  name: "商品清单",
+			  component: ShopGoods
 			},
     ]
   },

@@ -24,46 +24,46 @@
 
       <div class="col-12">
         <chart-card title="用户行为"
-                    sub-title="24小时表现"
+                    sub-title="最近24小时"
                     :chart-data="usersChart.data"
                     :chart-options="usersChart.options">
           <span slot="footer">
             <i class="ti-reload"></i> 3分钟前更新
           </span>
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> 打开
-            <i class="fa fa-circle text-danger"></i> 点击
-            <i class="fa fa-circle text-warning"></i> 点击两次
+            <i class="fa fa-circle text-info"></i> 好评
+            <i class="fa fa-circle text-danger"></i> 差评
+            <i class="fa fa-circle text-warning"></i> 中评
           </div>
         </chart-card>
       </div>
 
       <div class="col-md-6 col-12">
-        <chart-card title="电子邮件统计"
-                    sub-title="上次广告活动成效"
+        <chart-card title="就餐菜系比例"
+                    sub-title="饮品另算"
                     :chart-data="preferencesChart.data"
                     chart-type="Pie">
           <span slot="footer">
-            <i class="ti-timer"></i>  广告活动设定在2天前</span>
+            <i class="ti-timer"></i>  更新自2天前</span>
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> 打开
-            <i class="fa fa-circle text-danger"></i> 弹跳
-            <i class="fa fa-circle text-warning"></i> 退订
+            <i class="fa fa-circle text-info"></i> 米饭类
+            <i class="fa fa-circle text-danger"></i> 汤类
+            <i class="fa fa-circle text-warning"></i> 面食
           </div>
         </chart-card>
       </div>
 
       <div class="col-md-6 col-12">
-        <chart-card title="2015年销售额"
-                    sub-title="所有产品（含税）"
+        <chart-card title="销售额"
+                    sub-title="所有产品"
                     :chart-data="activityChart.data"
                     :chart-options="activityChart.options">
           <span slot="footer">
-            <i class="ti-check"></i> 数据信息认证
+            <i class="ti-check"></i> 后台大数据信息处理
           </span>
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> 特斯拉Model S 
-            <i class="fa fa-circle text-warning"></i>  宝马5系
+            <i class="fa fa-circle text-info"></i> 本月 
+            <i class="fa fa-circle text-warning"></i>  上月
           </div>
         </chart-card>
       </div>
@@ -89,8 +89,8 @@ export default {
         {
           type: "warning",
           icon: "ti-server",
-          title: "容量",
-          value: "105GB",
+          title: "销量",
+          value: "1051",
           footerText: "现在更新",
           footerIcon: "ti-reload"
         },
@@ -98,23 +98,23 @@ export default {
           type: "success",
           icon: "ti-wallet",
           title: "收入",
-          value: "$1,345",
+          value: "¥ 11,765",
           footerText: "最后一天",
           footerIcon: "ti-calendar"
         },
         {
           type: "danger",
           icon: "ti-pulse",
-          title: "失误",
-          value: "23",
+          title: "退款",
+          value: "45 次",
           footerText: "最后一小时",
           footerIcon: "ti-timer"
         },
         {
           type: "info",
-          icon: "ti-twitter-alt",
-          title: "追随者",
-          value: "+45",
+          icon: "ti-crown",
+          title: "新增用户",
+          value: "+220",
           footerText: "当前更新",
           footerIcon: "ti-reload"
         }

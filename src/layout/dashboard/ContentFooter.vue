@@ -9,7 +9,7 @@
         </ul>
       </nav>
       <div class="copyright d-flex flex-wrap">
-        你好，陌生人
+        欢迎您
       </div>
     </div>
   </footer>
